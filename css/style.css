@@ -1,0 +1,35 @@
+@font-face{
+    src: url(Gotham-Font/Gotham-Black.otf);
+    font-family: 'Gotham Black';
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar{
+    padding: 39px 4%;
+}
+
+nav{
+    background-color: #000;
+}
+
+.btn-g{
+    border-radius: 0;
+    border-style: none;
+    background: linear-gradient(88.79deg, #60B1FD -5.16%, #F49AEA 47.08%, #FFB2AE 98.23%);
+}
+
+.navbar .btn-g{
+    padding: 7px 27px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar .collapse .navbar-nav li a{
+    color: #fff!important;
+}
