@@ -53,9 +53,17 @@
     font-weight: 100;
 }
 
-@media(max-width:576px){
+@media(max-width:768px){
     .fs-72{
         font-size: 40px;
+    }
+
+    .fs-22{
+        font-size: 20px;
+    }
+
+    .fs-sm-24px{
+        font-size: 24px!important;
     }
 }
 
@@ -139,6 +147,11 @@ header{
 
 .hero-1 h1{
     line-height: 1.2;
+}
+
+.hero-h-div{
+    position: relative;
+    bottom: 20px;
 }
 
 .hero-1-content{
@@ -263,11 +276,99 @@ header{
     }
 }
 
-@media (max-width:576px) {
+@media (max-width:1024px) {
     .hero-1-content{
         grid-column: 1/-1;
     }
+
+    .hero-h-div{
+        position: relative;
+        bottom: 0px;
+    }
 }
+
+@media (max-width:576px) {
+    .h1-btn-1{
+        padding-left: 10px;
+        padding-right: 10px;
+        min-width: 160px;
+        height: 40px;
+        font-size: 20px!important;
+        padding-top: 6px!important;
+    }
+    
+    .outline-div{
+        height: 40px;
+        min-width: 160px;
+    }
+    .outline-btn{
+        background: #121212;
+        color: #fff;
+        border: none;
+        min-width: 160px!important;
+        min-height: 36px;
+    }
+
+    /* .hero-h-p2{
+        position: relative;
+        bottom: 15px;
+    } */
+    .l-height-0{
+        line-height: 1!important;
+    }
+
+    /* timer */
+
+    #clockdiv{
+        font-family: sans-serif;
+        color: #fff;
+        display:flex;
+        font-weight: 100;
+        font-size: 18px;
+        font-weight: 600;
+        justify-content: center;
+      }
+    
+      #clockdiv .time-box{
+        padding: 0;
+        border-radius: 0;
+        background-color: #000;
+        display: inline-flex;
+        width: 106px;
+        height: 138px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0
+      }
+      
+      #clockdiv > div{
+        padding: 20px;
+        border-radius: 0;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+      }
+      
+      #clockdiv div > span{
+        font-size: 48px;
+      }
+      
+      
+      .smalltext{
+        padding-top: 5px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        text-align: center;
+        margin: 0 auto;
+      
+      }
+}
+
+
+
 
 /* Video Section     */
 
