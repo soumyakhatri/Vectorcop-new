@@ -74,11 +74,15 @@
         font-size: 20px!important;
     }
     .fs-md-32{
-        font-size: 32px;
+        font-size: 32px!important;
     }
 
     .fs-md-40{
         font-size: 32px;
+    }
+
+    .fs-md-16{
+        font-size: 16px!important;
     }
 
 }
@@ -891,6 +895,7 @@ header{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         justify-content: center;
+        width: 768px;
     }
     .c-div{
         max-width:768px;
@@ -899,7 +904,46 @@ header{
 
     .c-main-img{
         max-width:768px;
+        margin-top: 0px;
+    }
+
+    .c-e-5{
+        left:125px;
+        bottom: 150px;
+    }
+    .c-p-1{
+        left: 110px;
+    }
+    .c-p-2{
+        right: 110px;
+    }
+
+    .creativity{
+        padding-top: 70px;
+    }
+
+}
+@media(max-width:576px){
+    .creativity{
+        padding-top: 40px;
+    }
+
+    .c-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        width: 340px;
+    }
+    .c-div{
+        max-width:340px;
+        justify-self: center;
         margin-top: 100px;
+    }
+
+    .c-main-img{
+        max-width:340px;
+        margin-top: 20px;
     }
 
     .c-e-5{
@@ -907,10 +951,12 @@ header{
         bottom: 100px;
     }
     .c-p-1{
-        left: 80px;
+        left: 25px;
+        bottom: 0;
     }
     .c-p-2{
-        right: 80px;
+        right: 25px;
+        bottom: 0;
     }
 
 }
