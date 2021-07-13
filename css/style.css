@@ -783,6 +783,10 @@ header{
     line-height: 1.6;
 }
 
+.c-flex-div{
+    min-width: 100%;
+}
+
 .c-grid{
     display: grid;
     grid-template-columns: 1fr 942px 1fr;
@@ -934,6 +938,7 @@ header{
         grid-template-rows: 1fr;
         justify-content: center;
         width: 340px;
+        margin: 0 auto;
     }
     .c-div{
         max-width:340px;
