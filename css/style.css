@@ -681,7 +681,7 @@ header{
     }
     
     .license-bottom{
-        height: 400px;
+        height: 350px;
         width: 100%;
     }
     
@@ -750,6 +750,12 @@ header{
 
 .guarantee{
     padding: 0 22%;
+}
+
+@media(max-width:768px){
+    .guarantee{
+        padding: 0 10%;
+    }
 }
 
 /* Creativity */
