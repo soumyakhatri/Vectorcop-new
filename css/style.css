@@ -610,6 +610,47 @@ header{
     right: 50px;
 }
 
+@media (max-width:786px) {
+    .license-top{
+        height: 427px;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .license-bottom{
+        height: 470px;
+        width: 100%;
+    }
+    
+    .l-e-1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: end;
+        align-self: top;
+        position: relative;
+        top: 200px;
+        left: 0px;
+    }
+    .l-glass{
+        justify-self: center;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 80%;
+        height: 750px;
+        margin-top: 81px;
+        background: rgba(0, 0, 0, 0.6);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 15px );
+        -webkit-backdrop-filter: blur( 15px );
+        border-radius: 30px;
+    }
+    
+}
+
 /* Guarantee */
 
 .guarantee{
