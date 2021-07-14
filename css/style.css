@@ -897,7 +897,6 @@ header{
     .c-grid{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
         justify-content: center;
         width: 768px;
     }
@@ -933,10 +932,6 @@ header{
     }
 
     .c-grid{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        justify-content: center;
         width: 340px;
         margin: 0 auto;
     }
