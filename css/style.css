@@ -1361,8 +1361,9 @@ header{
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 0;
-        padding: 22px 15px;
+        padding: 22px 15px 15px;
         line-height: 24px;
+        margin-bottom: 0;
     }
     .review-p-3{
         font-size: 20px;
