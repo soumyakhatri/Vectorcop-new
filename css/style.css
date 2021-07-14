@@ -66,7 +66,7 @@
         font-size: 20px;
     }
 
-    .fs-md-24px{
+    .fs-md-24{
         font-size: 24px!important;
     }
 
@@ -924,6 +924,10 @@ header{
     .creativity{
         padding-top: 70px;
     }
+    .c-small-p-div{
+        max-width: 700px;
+        margin-top: 50px;
+    }
 
 }
 @media(max-width:576px){
@@ -957,6 +961,10 @@ header{
     .c-p-2{
         right: 25px;
         bottom: 0;
+    }
+    .c-small-p-div{
+        max-width: 700px;
+        margin-top: 35px;
     }
 
 }
