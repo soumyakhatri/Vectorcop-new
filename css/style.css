@@ -1005,14 +1005,14 @@ header{
     max-width: 375px;
     min-width: 375px;
     height: 130px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .pur-b-box{
     min-width: 375px;
     max-width: 375px;
     height: 130px;
-    border-radius: 10px;
+    border-radius: 8px;
 
 }
 
@@ -1066,11 +1066,13 @@ header{
         max-width: 301px;
         min-width: 301px;
         height: 105px;
+        border-radius: 8px;
     }
     .pur-b-box{
         max-width: 301px;
         min-width: 301px;
         height: 105px;
+        border-radius: 8px;
     }
 
     .pur-b-box img{
@@ -1078,3 +1080,45 @@ header{
         height: 51px;
     }
 }
+
+/* Carousel */
+
+.car-h{
+    margin: 0 auto;
+    max-width: 970px;
+}
+
+@media(max-width:768px){
+    .car-h{
+        max-width:555px;
+    }
+}
+
+/* external css: flickity.css */
+
+.gallery, .gallery-cell {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+    
+  .gallery {
+    background: #EEE;
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
