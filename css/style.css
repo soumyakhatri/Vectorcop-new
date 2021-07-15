@@ -1373,9 +1373,15 @@ header{
         font-size: 20px;
     }
 
+    .review-person-img-div {
+        padding-bottom: 35px;
+    }
+
     .review-person-img{
         width: 57px;
         height: 57px;
+        padding-bottom: ;
     }
+
 }
 
