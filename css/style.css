@@ -753,6 +753,15 @@ header{
     bottom: 25px;
     right: 50px;
 }
+.l-2-e-2{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: start;
+    align-self: center;
+    position: relative;
+    right: 173px;
+    top: 90px;
+}
 
 @media (max-width:786px) {
     .license-top{
@@ -1146,10 +1155,35 @@ header{
     max-width: 850px;
 }
 .pur-e-1{
-    grid-column: 2/3;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: start;
+    justify-self: start;
+    position: relative;
+    bottom: 30px;
+}
+.pur-e-2{
+    grid-column: 3/4;
     grid-row: 1/2;
     align-self: end;
     justify-self: end;
+    position: relative;
+}
+.pur-e-m-1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: start;
+    align-self: start;
+    position: relative;
+    bottom: 0;
+}
+.pur-e-m-2{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: end;
+    align-self: end;
+    position: relative;
+    top: 125px;
 }
 
 @media(max-width:1024px){
@@ -1158,6 +1192,7 @@ header{
         grid-template-rows: 1fr;
         justify-content: center;
     }
+
 
     .pur-e-1{
        grid-column: 1/2; 
@@ -1170,7 +1205,7 @@ header{
        grid-row: 1/2;
        justify-self: center;
     }
-    .pur-e-1{
+    .pur-e-2{
         grid-column: 1/2; 
         grid-row: 1/2;
         align-self: end;
@@ -1200,13 +1235,23 @@ header{
     .pur-main{
         max-width: 576px;
     }
+    .pur-e-m-2{
+        top: 50px;
+    }
+}
 
     @media(max-width:576px){
         .pur-main{
             max-width: 320px;
         }  
+
+        .pur-e-m-1{
+            bottom: 250px;
+        }
+        .pur-e-m-2{
+            top: 145px;
+        }
     }
-}
 
 /* Carousel */
 
