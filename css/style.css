@@ -1288,6 +1288,10 @@ header{
 
 
 /* Review */
+.reviews{
+    padding-bottom: 240px;
+}
+
 .review-boxes{
     padding: 0 105px;
 }
@@ -1338,11 +1342,17 @@ header{
     }
 }
 @media(max-width:1199px){
+    .reviews{
+        padding-bottom: 150px;
+    }
     .review-box{
         min-height: auto;
     }
 }
 @media(max-width:600px){
+    .reviews{
+        padding-bottom: 80px;
+    }
     .review-boxes{
         padding: 10px;
     }
