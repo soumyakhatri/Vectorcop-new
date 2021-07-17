@@ -450,7 +450,14 @@ body{
     .main-cart-grid{
         padding: 10%;
     }
-}    
+}  
+
+@media(max-width:768px){
+    .cut-295{
+        margin-left: 114px;
+    }
+    margin-left: 106px;
+}
 
 @media(max-width:642px){
 
