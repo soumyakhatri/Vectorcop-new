@@ -292,12 +292,9 @@ body{
     line-height: 60px;
     letter-spacing: 0em;
     text-align: center;
-}
-
-.h-main{
     margin: 0 auto;
-}
 
+}
 .main-cart{
     max-width: 1151px;
     margin: 70px auto;
@@ -456,10 +453,15 @@ body{
     .cut-295{
         margin-left: 114px;
     }
+    .main-cart{
+        margin-top: 20px;
+    }
 }
 
 @media(max-width:642px){
-
+    .main-cart{
+        margin-top: 20px;
+    }
     .main-cart-grid{
         padding: 0;
     }
