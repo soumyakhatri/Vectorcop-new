@@ -448,7 +448,7 @@ body{
 @media(max-width:858px){
 
     .main-cart-grid{
-        padding: 10%;
+        padding: 0 10%;
     }
 }  
 
@@ -456,7 +456,6 @@ body{
     .cut-295{
         margin-left: 114px;
     }
-    margin-left: 106px;
 }
 
 @media(max-width:642px){
