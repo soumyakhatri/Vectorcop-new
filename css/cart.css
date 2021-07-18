@@ -516,6 +516,9 @@ body{
     .main-cart{
         margin-top: 20px;
     }
+    .features .row{
+        width: 60%;
+       }
 }
 
 @media(max-width:642px){
