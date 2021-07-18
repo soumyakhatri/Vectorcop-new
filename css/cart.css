@@ -478,4 +478,7 @@ body{
     .features .row{
      width: 70%;
     }
+    .features .row div{
+        padding-right: 0;
+       }
 } 
