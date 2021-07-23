@@ -17,10 +17,10 @@
 }
 
 .ff-gb{
-    font-family: 'Gotham Black', sans-serif;  
+    font-family: 'Gotham Black', sans-serif;
 }
 .ff-g{
-    font-family: 'Gotham', sans-serif;  
+    font-family: 'Gotham', sans-serif;
 }
 
 .c-white{
@@ -135,13 +135,13 @@
 }
 
 .text-g{
-    background-color: #fff; 
+    background-color: #fff;
     background: linear-gradient(88.79deg, #60B1FD -5.16%, #F49AEA 47.08%, #FFB2AE 98.23%);
     background-size: 100%!important;
     background-repeat: repeat!important;
      background-clip: text;
     -webkit-background-clip: text!important;
-    -webkit-text-fill-color: transparent!important; 
+    -webkit-text-fill-color: transparent!important;
     -moz-background-clip: text!important;
     -moz-text-fill-color: transparent!important;
     display: inline-block;
@@ -343,7 +343,7 @@ header{
     justify-content: center;
     margin-left: 0
   }
-  
+
   #clockdiv > div{
     padding: 20px;
     border-radius: 0;
@@ -353,12 +353,12 @@ header{
     justify-content: center;
     margin-right: 10px;
   }
-  
+
   #clockdiv div > span{
     font-size: 64px;
   }
-  
-  
+
+
   .smalltext{
     padding-top: 5px;
     font-size: 16px;
@@ -366,29 +366,29 @@ header{
     color: #fff;
     text-align: center;
     margin: 0 auto;
-  
+
   }
 
   .gradient-box {
-  
+
     display: flex;
     align-items: center;
     //width: 50vw;
     width: 90%;
     margin: auto;
     max-width: 22em;
-  
+
     position: relative;
     padding: 30% 2em;
     box-sizing: border-box;
-  
+
     $border: 5px;
     color: #FFF;
     background: #000;
     background-clip: padding-box; /* !importanté */
     border: solid $border transparent; /* !importanté */
     border-radius: 1em;
-  
+
     &:before {
       content: '';
       position: absolute;
@@ -420,7 +420,7 @@ header{
         font-size: 20px!important;
         padding-top: 6px!important;
     }
-    
+
     .outline-div{
         height: 40px;
         min-width: 160px;
@@ -448,7 +448,7 @@ header{
         font-weight: 600;
         justify-content: center;
       }
-    
+
       #clockdiv .time-box{
         padding: 0;
         border-radius: 0;
@@ -460,7 +460,7 @@ header{
         justify-content: center;
         margin-left: 0
       }
-      
+
       #clockdiv > div{
         padding: 20px;
         border-radius: 0;
@@ -470,12 +470,12 @@ header{
         justify-content: center;
         margin-right: 10px;
       }
-      
+
       #clockdiv div > span{
         font-size: 48px;
       }
-      
-      
+
+
       .smalltext{
         padding-top: 5px;
         font-size: 14px;
@@ -483,7 +483,7 @@ header{
         color: #fff;
         text-align: center;
         margin: 0 auto;
-      
+
       }
 }
 
@@ -541,7 +541,7 @@ header{
 
 .v-b-box{
     height: 484px;
-    width: 866px; 
+    width: 866px;
     border-radius: 10px;
 }
 
@@ -661,7 +661,7 @@ header{
     font-size: 18px;
     letter-spacing: 1.4px;
     border: none;
-    border-radius: 4px; 
+    border-radius: 4px;
 }
 :root {
     --purple: #7f00ff;
@@ -695,7 +695,7 @@ header{
     border-radius: 4px;
     color: #fff;
     z-index: 2;
-    
+
     /* Our gradient */
      background: linear-gradient(88.79deg, #60B1FD -5.16%, #F49AEA 47.08%, #FFB2AE 98.23%);;
   }
@@ -704,22 +704,22 @@ header{
     content: "";
     position: absolute;
     z-index: -1;
-    
+
     height: 105%;
     width: 101%;
     opacity: 0.8;
     border-radius: 4px;
-    
+
     /* Declaring our shadow color inherit from the parent (button) */
     background: inherit;
-    
+
     /* Blurring the element for shadow effect */
     -webkit-filter: blur(6px);
     -moz-filter: blur(6px);
     -o-filter: blur(6px);
     -ms-filter: blur(6px);
     filter: blur(6px);
-    
+
     /* Transition for the magic */
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
@@ -773,12 +773,12 @@ header{
         justify-content: center;
         margin: 0 auto;
     }
-    
+
     .license-bottom{
         height: 470px;
         width: 100%;
     }
-    
+
     .l-e-1{
         grid-column: 1/2;
         grid-row: 1/2;
@@ -801,7 +801,7 @@ header{
         -webkit-backdrop-filter: blur( 15px );
         border-radius: 30px;
     }
-    
+
 }
 
 @media (max-width:576px){
@@ -814,12 +814,12 @@ header{
         justify-content: center;
         margin: 0 auto;
     }
-    
+
     .license-bottom{
         height: 350px;
         width: 100%;
     }
-    
+
     .l-e-1{
         grid-column: 1/2;
         grid-row: 1/2;
@@ -848,13 +848,13 @@ header{
         font-size: 18px;
         letter-spacing: 1.4px;
         border: none;
-        border-radius: 4px; 
+        border-radius: 4px;
     }
     :root {
         --purple: #7f00ff;
         --pink: #e100ff;
       }
-    
+
     .l-btn-div{
         padding: 0;
         min-height: 52px;
@@ -920,14 +920,14 @@ header{
 }
 .c-div{
     grid-column: 2/3;
-    grid-row: 1/2; 
-    align-items: top; 
+    grid-row: 1/2;
+    align-items: top;
     width: 942px;
 }
 
 .c-e-3{
     grid-column: 2/3;
-    grid-row: 1/2; 
+    grid-row: 1/2;
     align-self: center;
     justify-self: end;
     position: relative;
@@ -973,7 +973,7 @@ header{
 
 .creativity-p-div{
     grid-column: 2/3;
-    grid-row: 1/2;  
+    grid-row: 1/2;
     justify-self: center;
 }
 
@@ -990,13 +990,13 @@ header{
 
 .c-p-2{
     grid-column: 2/3;
-    grid-row: 1/2; 
+    grid-row: 1/2;
     align-self: end;
-    justify-self: end; 
+    justify-self: end;
     position: relative;
     bottom: 50px;
     right: 105px;
-    line-height: 1.2; 
+    line-height: 1.2;
 }
 
 .c-big-p-div{
@@ -1020,11 +1020,11 @@ header{
 @media(max-width:942px){
     .c-main-img{
         max-width:768px;
-    }   
+    }
     .c-div{
         max-width: 768px;
         justify-self: center;
-    } 
+    }
     .c-image-collection-row{
         width: 768px;
     }
@@ -1195,18 +1195,18 @@ header{
 
 
     .pur-e-1{
-       grid-column: 1/2; 
+       grid-column: 1/2;
        grid-row: 1/2;
        align-self: start;
        justify-content: start;
     }
     .pur-main{
-       grid-column: 1/2; 
+       grid-column: 1/2;
        grid-row: 1/2;
        justify-self: center;
     }
     .pur-e-2{
-        grid-column: 1/2; 
+        grid-column: 1/2;
         grid-row: 1/2;
         align-self: end;
         justify-content: end;
@@ -1243,7 +1243,7 @@ header{
     @media(max-width:576px){
         .pur-main{
             max-width: 320px;
-        }  
+        }
 
         .pur-e-m-1{
             bottom: 250px;
@@ -1295,7 +1295,7 @@ header{
         left: -756px;
     }
     35%{
-        left: -756px; 
+        left: -756px;
     }
     37.5%{
         left: -1134px
@@ -1355,11 +1355,11 @@ header{
 }
 .car-e-1{
     grid-column: 1/2;
-    grid-row: 1/2; 
+    grid-row: 1/2;
 }
 .car-e-2{
     grid-column: 3/4;
-    grid-row: 1/2; 
+    grid-row: 1/2;
     justify-self: end ;
 }
 
@@ -1483,6 +1483,8 @@ header{
 
 .review-boxes{
     padding: 0 105px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .review-box{
@@ -1642,8 +1644,8 @@ header{
     .accordion{
         width: 100vw;
     }
-    .accordion-button{  
-        font-size: 16px; 
+    .accordion-button{
+        font-size: 16px;
     }
     .accordion-body{
         font-size: 16px;
